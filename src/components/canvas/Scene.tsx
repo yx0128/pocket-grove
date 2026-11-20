@@ -52,7 +52,7 @@ function CameraControls() {
     }
   }, [camera, cameraReset]);
 
-  const canRotate = mode === 'view' || (mode === 'build' && !selectedItemId);
+  const canRotate = mode !== 'build' || !selectedItemId;
 
   return (
     <OrbitControls

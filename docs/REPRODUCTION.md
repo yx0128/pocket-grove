@@ -87,7 +87,7 @@ The reference suite has 11 tests in `src/store/useWorldStore.test.ts`.
 - Lights: hemisphere 1.15, ambient 0.2, warm sun 2.15 at `[8,13,6]` with 2048² PCFSoft shadows, cool fill 0.5.
 - Fog `#d7e9e2` 28–62.
 - Camera `[9.6,10,12.4]`, target `[0,0.25,0.5]`, fov 40.
-- OrbitControls clamps 7.5–28 and maxPolar `π/2.2`; left rotate only in View/Build-with-no-selection; right pan, wheel zoom.
+- OrbitControls clamps 7.5–28 and maxPolar `π/2.2`; left rotate except in Build with a selected item; right pan, wheel zoom.
 - Reset camera via a `cameraReset` counter.
 
 ### 5.2 Island

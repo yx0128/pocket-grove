@@ -135,7 +135,7 @@ Scene rules:
 - `<Canvas shadows alpha dpr={[1,2]}>` with camera `[9.6,10,12.4]`, target `[0,0.25,0.5]`, fov 40.
 - CSS sky gradient on the page (radial warm sun + blue→cream linear). Do **not** use a world-space sky shader: with a top-down camera it becomes all sunset.
 - PCFSoft shadows, 2048²; warm sun directional + hemisphere + cool fill; fog 28–62.
-- OrbitControls: damping, distance 7.5–28, polar 0.25–π/2.2, right pan, wheel zoom, left rotate only in View or Build-with-no-selection.
+- OrbitControls: damping, distance 7.5–28, polar 0.25–π/2.2, right pan, wheel zoom, left rotate except in Build with a selected item.
 - Reset camera via a non-persisted counter.
 
 Island:

@@ -137,7 +137,7 @@ Keep these aligned with the island geometry. If the board top moves, update the 
 
 - Initial: `[9.6, 10, 12.4]`, target `[0, 0.25, 0.5]`, fov 40.
 - Clamp `maxPolarAngle = Math.PI / 2.2`, distance `7.5..28`.
-- `enableRotate` is `view || (build && no selection)`. This reserves left click/drag for placement and removal while still allowing orbit in View/Build-with-no-selection.
+- `enableRotate` is `true` except Build with a selected item (so View, Remove, and Build with no selection can orbit). This reserves left click/drag for placing while still allowing orbit during removal: a click without movement removes, a drag orbits.
 - Right button pans; middle dollies; wheel zooms.
 - Reset camera is a non-persisted `cameraReset` counter; `Scene` applies the default position/target.
 

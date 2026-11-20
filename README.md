@@ -80,7 +80,7 @@ Complete a task, place a tile, then visit the shop. **Reset world** in the task 
 | **R** or the Rotate button | Rotate the ghost / next placement by 90° |
 | **Right click** a placed miniature | Return it to your tray (a drag does not remove) |
 | **Right-drag** | Pan the camera |
-| **Left-drag** (View mode, or Build with nothing selected) | Orbit the camera |
+| **Left-drag** (View, Remove, or Build with nothing selected) | Orbit the camera |
 | **Scroll wheel** | Zoom, clamped so the camera never clips under the island |
 | **1–9** | Quick-select a hotbar miniature |
 | **B / V / X** | Build / View / Remove mode |
