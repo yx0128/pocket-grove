@@ -1,0 +1,49 @@
+name: Feature request
+description: Suggest a miniature, interaction, or quality-of-life improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pocket Grove is intentionally small and asset-free. Ideas that strengthen the cozy task-to-miniature loop are especially welcome.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the behavior, visuals, and any 1x1 footprint constraints.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - 3D assets
+        - Task economy
+        - Build / placement
+        - HUD / accessibility
+        - Persistence
+        - Documentation / tooling
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and the product spec.
+          required: true
+        - label: This keeps the app local-only and procedural (no external model/CDN requirement).
+          required: true
