@@ -8,14 +8,14 @@
 | --- | --- |
 | Project | Pocket Grove · 3D Isometric Task & Miniature World Builder `1.0.0` |
 | Session started | **2026-11-20 15:41:45 UTC** (`2026-11-21 02:41:45 AEDT`) |
-| State snapshot | **2026-11-20 17:01:05 UTC** (`2026-11-21 04:01:05 AEDT`) |
-| Wall-clock elapsed | **1 h 19 min 20 s** (start → snapshot) |
+| State snapshot | **2026-11-20 17:04:24 UTC** (`2026-11-21 04:04:24 AEDT`) |
+| Wall-clock elapsed | **1 h 22 min 39 s** (start → snapshot) |
 | Agent | **OpenCode 1.19.5** |
 | Provider / model | **`opencode-go` / `deepseek-v4.1-flash`** |
 | Session ID | `ses_e06610ecfffeFs84z17RtxGY8S` |
 | Session title | *3D isometric task world builder setup* |
-| Raw token total | **17,834,596** (input + output + reasoning + cache read + cache write) |
-| Provider-reported cost | **$0.225188 USD** |
+| Raw token total | **19,811,015** (input + output + reasoning + cache read + cache write) |
+| Provider-reported cost | **$0.236792 USD** |
 | Store tests | **11 / 11 passing** |
 | Source lines | **3,696** TS/TSX/CSS (snapshot) |
 | Documentation lines | **2,546** Markdown (including skill references) |
@@ -25,14 +25,14 @@
 
 | Bucket | Tokens |
 | --- | ---: |
-| Input (uncached / fresh) | 280,884 |
-| Output | 103,293 |
-| Reasoning | 115,123 |
-| Cache read | 17,335,296 |
+| Input (uncached / fresh) | 289,802 |
+| Output | 105,445 |
+| Reasoning | 120,280 |
+| Cache read | 19,295,488 |
 | Cache write | 0 |
-| **Raw total** | **17,834,596** |
+| **Raw total** | **19,811,015** |
 
-Cache reads dominate because the agent re-read a large working context on every step. Providers bill cache reads at a discount, so the reported total cost is **$0.225188**, not a linear multiplication of the raw token count.
+Cache reads dominate because the agent re-read a large working context on every step. Providers bill cache reads at a discount, so the reported total cost is **$0.236792**, not a linear multiplication of the raw token count.
 
 ## Phase timeline (approximate, local AEDT)
 
@@ -45,7 +45,7 @@ Cache reads dominate because the agent re-read a large working context on every 
 | 03:25–03:43 | Visual QA: fixed inflated RoundedBox, sky, flat tiles, grid, clouds, camera |
 | 03:43–03:46 | 1440×900 and 1280×720 screenshot passes; no console errors |
 | 03:46–03:56 | Docs, state, skill, release assets |
-| 03:56–04:01 | App + skill published to GitHub; skill installed; CI green; final state refresh |
+| 03:56–04:04 | App + skill published to GitHub; skill installed; CI green; Dependabot noise closed; final state refresh |
 
 ## What shipped
 
