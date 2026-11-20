@@ -209,6 +209,12 @@ node scripts/capture.mjs
 VIEWPORT=1280x720 SHOT_SUFFIX=-1280 node scripts/capture.mjs
 ```
 
+The end-to-end browser smoke test exercises the real UI: task reward, add task, place, rotate, right-click removal, purchase, hide UI, reload persistence, reset, and console cleanliness:
+
+```bash
+node scripts/smoke.mjs
+```
+
 Details and results: [docs/QA.md](docs/QA.md) · [Reproduction guide](docs/REPRODUCTION.md).
 
 ---

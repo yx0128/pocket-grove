@@ -173,7 +173,7 @@ Current expected result: **11 tests passing**.
 
 The store tests cover starter state, reward payout, double payout prevention, task trimming, purchase, insufficient funds, item selection, placement/stock advance, occupied/out-of-bounds rejection, removal, and reset. Add a test whenever you change store behavior.
 
-Visual QA: see `docs/QA.md`. Use `scripts/capture.mjs`; inspect the four 1440 screenshots and the 1280 overview. Browser console must be clean.
+Visual QA: see `docs/QA.md`. Use `scripts/capture.mjs`; inspect the four 1440 screenshots and the 1280 overview. The browser smoke test `node scripts/smoke.mjs` (preview server required) validates the real UI wiring: task reward, add task, place, rotate, right-click removal, shop purchase, hide UI, reload persistence, and reset. Browser console must be clean.
 
 Headless screenshot gotchas:
 

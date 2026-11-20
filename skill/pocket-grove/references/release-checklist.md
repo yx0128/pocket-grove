@@ -9,7 +9,8 @@
 - [ ] `npm run preview -- --port 4173`
 - [ ] 1440×900 screenshots inspected
 - [ ] 1280×720 screenshot inspected
-- [ ] Console clean (capture script enforces this)
+- [ ] Console clean (capture and smoke scripts enforce this)
+- [ ] `node scripts/smoke.mjs` passes 25/25
 
 ## Product
 

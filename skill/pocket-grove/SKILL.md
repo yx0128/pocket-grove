@@ -221,7 +221,10 @@ Run:
 npm run preview -- --port 4173
 node scripts/capture.mjs
 VIEWPORT=1280x720 SHOT_SUFFIX=-1280 node scripts/capture.mjs
+node scripts/smoke.mjs
 ```
+
+`scripts/smoke.mjs` is a 25-assertion UI smoke test: completion reward, custom task, place, stock decrement, second placement, R rotation, right-click removal, shop purchase, hide/show UI, reload persistence, reset, and console cleanliness.
 
 Inspect every screenshot. Look for: flat tiles disappearing, grid visible in View, ghost hidden, modal too transparent, text cut off at 1280×720, hotbar overflow, island clipped by HUD.
 
@@ -321,6 +324,7 @@ cp -R skill/<skill-name>/. ~/.claude/skills/<skill-name>/
 - `references/pitfalls.md` — the release postmortem and exact fixes.
 - `references/release-checklist.md` — publish and verify sequence.
 - `scripts/capture.mjs` — dependency-free CDP screenshot pipeline.
+- `scripts/smoke.mjs` — 25-assertion UI smoke test.
 - Reference app: https://github.com/yx0128/pocket-grove
 - Reference skill backup: https://github.com/yx0128/pocket-grove-skill
 - React Three Fiber: https://r3f.docs.pmnd.rs

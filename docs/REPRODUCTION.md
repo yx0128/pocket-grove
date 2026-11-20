@@ -150,7 +150,10 @@ Then:
 
 ```bash
 npm run preview -- --port 4173
+node scripts/smoke.mjs
 ```
+
+The smoke test drives the real UI (reward, add task, place, rotate, right-click remove, buy, hide UI, reload persistence, reset) and fails on any browser console error. It complements the store tests.
 
 In a browser verify:
 
