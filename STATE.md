@@ -82,7 +82,6 @@ Session ID can also be found in `~/.local/share/opencode/log/opencode.log` as `s
 - Cost is the provider-reported value in the same row; pricing is provider-specific.
 - Token counts include a very large cache-read bucket, which is not equivalent to fresh generation.
 - Source/documentation line counts are a snapshot; the repository is the source of truth.
-- GitHub Actions CI passed on the release commit; Dependabot opened three optional GitHub Actions version-bump PRs after publication.
 - The project was generated with AI assistance. Review, test, and adapt before using it in production.
 
 ## Credits
